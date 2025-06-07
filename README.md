@@ -74,6 +74,6 @@ _Offensive_
 
 ->Classify live tweets
 
-👨‍💻 Author
+👨‍💻 Author:
 Sri Charan Kolachalama
 sricharankolachlama@gmail.com
