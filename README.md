@@ -43,6 +43,7 @@ Run all cells to see model training and predictions
 Run hate_speech_gui.py
 
 **Sample Usage**
+
 _Neutral_
 1. "I’m going to the store to buy some groceries."
 
