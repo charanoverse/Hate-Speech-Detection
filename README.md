@@ -76,4 +76,4 @@ _Offensive_
 
 👨‍💻 Author
 Sri Charan Kolachalama
-LinkedIn | sricharankolachlama@gmail.com
+sricharankolachlama@gmail.com
