@@ -64,11 +64,15 @@ _Offensive_
 3. "This app is a piece of shit and never works right."
 
 📌 Future Ideas
-Add a web interface
+->Integrate with a Flask/Streamlit web app
 
-Try deep learning (LSTM or BERT)
+->Real-time tweet classification using Twitter API
 
-Classify live tweets
+->Support for multilingual hate speech
+
+->Fine-tuning with BERT-based models
+
+->Classify live tweets
 
 👨‍💻 Author
 Sri Charan Kolachalama
