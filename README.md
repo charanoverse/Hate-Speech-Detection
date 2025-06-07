@@ -1,70 +1,69 @@
-🛡️ Hate Speech Detection using NLP and Machine Learning
-This project aims to detect and classify hate speech in text using Natural Language Processing (NLP) and supervised machine learning techniques. It can be used to moderate content on social media platforms, forums, or any online platform to flag toxic content and prevent online harm.
+🛡️ Hate Speech Detection
+This is a machine learning project that detects hate speech in text using Natural Language Processing (NLP). The goal is to identify toxic, obscene, threatening, or hateful content in user comments.
 
-📌 Features
-Text classification into categories: toxic, obscene, threat, insult, identity hate
+🔧 Tools & Technologies
+Python
 
-Preprocessing using spaCy and NLTK
+Pandas, NumPy
 
-Vectorization using TF-IDF
+NLTK, spaCy (for text preprocessing)
 
-Classification using models like Logistic Regression, Random Forest, and XGBoost
+Scikit-learn
 
-Evaluation with accuracy, precision, recall, and F1-score
+Tkinter 
 
-Option to predict hate levels for custom input text
+📁 Dataset
+Source: Hate Speech and Offensive Language Detection
+https://www.kaggle.com/code/kirollosashraf/hate-speech-and-offensive-language-detection/input
 
-🧠 Tech Stack
-Language: Python 3.x
+The dataset contains user comments with labels like:
 
-Libraries:
+count,hate_speech_count,offensive_language_count,neither_count,class,tweet
 
-NLP: spaCy, nltk, re
+🚀 Steps Involved
+Load and clean the dataset
 
-Data Handling: pandas, numpy
+Preprocess the text (lowercase, remove stopwords, lemmatize)
 
-ML Models: scikit-learn, xgboost
+Convert text to numerical format using TF-IDF
 
-Visualization: matplotlib, seaborn
+Train ML models like Logistic Regression, Random Forest
 
-📂 Dataset
-Source: Jigsaw Toxic Comment Classification Challenge - Kaggle
+Evaluate performance using metrics like accuracy and F1-score
 
-Format: CSV
+▶️ How to Run
+Clone the repository
 
-Columns:
+Install required libraries
 
-id
+Open the Jupyter notebook
 
-comment_text
+Run all cells to see model training and predictions
 
-toxic, severe_toxic, obscene, threat, insult, identity_hate (target labels)
+Run hate_speech_gui.py
 
-🧹 Preprocessing Pipeline
-Lowercasing
+**Sample Usage**
+_Neutral_
+1. "I’m going to the store to buy some groceries."
 
-Removing special characters and numbers
+2. "The weather today is pleasant and sunny."
 
-Tokenization
+3. "She enjoys reading books in her free time."
 
-Lemmatization (using spaCy)
+_Hate Speech_
+1. "Those people don’t belong here and should be kicked out."
 
-Stopword removal (using NLTK)
+2. "I can’t stand that community — they ruin everything."
 
-🚀 How to Run
-1. Clone the repository
-bash
-Copy
-Edit
-git clone https://github.com/your-username/hate-speech-detection.git
-cd hate-speech-detection
-2. Install dependencies
-bash
-Copy
-Edit
-pip install -r requirements.txt
-3. Run the Jupyter Notebook
-bash
-Copy
-Edit
-jupyter notebook hatespeech_detection.ipynb
+3. "They are all criminals just because of their race."
+
+📌 Future Ideas
+Add a web interface
+
+Try deep learning (LSTM or BERT)
+
+Classify live tweets
+
+👨‍💻 Author
+Sri Charan Kolachalama
+LinkedIn | sricharankolachlama@gmail.com
