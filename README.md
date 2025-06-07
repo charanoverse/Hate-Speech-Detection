@@ -58,6 +58,11 @@ _Hate Speech_
 
 3. "They are all criminals just because of their race."
 
+_Offensive_
+1. "That was the dumbest shit I've ever seen."
+2. "Nobody cares about your opinion — it's just shit."
+3. "This app is a piece of shit and never works right."
+
 📌 Future Ideas
 Add a web interface
 
